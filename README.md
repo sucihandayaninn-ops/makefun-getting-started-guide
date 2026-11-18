@@ -32,20 +32,16 @@ The basic sequence is:
 
 ## What you need
 
-- A make.fun account with a linked GitHub account.
-- A Solana wallet that can receive USDC.
-- Node.js 22 for the make.fun kit CLI.
-- One supported coding agent and enough provider quota for the build.
-- A public GitHub repository, unless the bounty explicitly accepts a source bundle.
-- A little SOL for transaction fees when a wallet must sign. Signing in is not the same as paying a bounty entry fee, but Solana transactions can still need network fee balance.
+- A make.fun account with linked GitHub and a Solana wallet that can receive USDC.
+- Node.js 22, one supported agent, enough provider quota, and a public GitHub repository unless the bounty accepts a source bundle.
+- A little SOL for signing fees. Signing in is not an entry fee, but Solana transactions can still need network balance.
 
 ## 1. Create and connect your account
 
 1. Open [make.fun](https://make.fun), or use [this referral link](https://make.fun/r/w2hmc5q2), and select **Sign in**.
 2. Use GitHub, Google, Apple, Discord, or a Solana wallet. A wallet sign-in does not send a transaction.
-3. Open your profile and link GitHub if it is not already connected.
-4. Confirm that the linked GitHub account is the one that will own the public repository.
-5. Add or confirm a Solana wallet for rewards. Treat the wallet address as public, but never share its seed phrase or private key.
+3. In your profile, link GitHub and confirm it is the account that will own the public repository.
+4. Add or confirm a Solana wallet for rewards. Treat its address as public; never share its seed phrase or private key.
 
 The kit's login connects the command line to the account you just checked. From inside an unpacked bounty kit, run:
 
